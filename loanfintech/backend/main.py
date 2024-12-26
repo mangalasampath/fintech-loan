@@ -10,7 +10,7 @@ from bson import ObjectId
 from fastapi.middleware.cors import CORSMiddleware
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://myAtlasDBUser:Sai123@myatlasclusteredu.qifwasp.mongodb.net/loanmanagment?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://myAtlasDBUser:sampath@123@myatlasclusteredu.qifwasp.mongodb.net/loanmanagment?retryWrites=true&w=majority")
 db = client.loan_app
 users_collection = db.users
 loans_collection = db.loans
